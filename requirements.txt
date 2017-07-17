@@ -3,5 +3,6 @@ Flask-Cache
 LatLon
 astropy
 SPARQLWrapper
-gevent
+gunicorn
+futures
 

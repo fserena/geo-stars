@@ -39,7 +39,7 @@ setup(
     url=metadata['github'],
     download_url="https://github.com/fserena/geo-stars/tarball/{}".format(metadata['version']),
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
-    install_requires=['astropy', 'flask', 'Flask-Cache', 'LatLon', 'gevent', 'SPARQLWrapper'],
+    install_requires=['astropy', 'flask', 'Flask-Cache', 'LatLon', 'gunicorn', 'futures', 'SPARQLWrapper'],
     classifiers=[],
     package_dir={'geo_stars': 'geo_stars'},
     package_data={'geo_stars': ['metadata.json', 'catalog.json']},
